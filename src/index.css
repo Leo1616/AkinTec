@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  background: url('./img/background.png');
+}
+
+ul {
+  list-style-type: square;
+}
+
+p {
+  color: #bfc20be5;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.people {
+  padding: 30px;
+  background: url('./img/background.png');
+  position: absolute;
+}
+
+.planet {
+  padding: 30px;
+  background: url('./img/background.png');
+  position: absolute;
+}
+
+.film {
+  padding: 30px;
+  background: url('./img/background.png');
+  position: absolute;
+}
+
+.buttonMob {
+  text-align: right;
+}
+
+.container {
+  background: rgb(15, 23, 31);
+  width: 100%;
+}
+
+.title {
+  color: yellow;
+}
+
+.subtitle {
+  color: #a8a8a8;
+}
+
+.people-name {
+  color: white;
+}
+
+.planet-name {
+  color: white;
+}
+
+.film-title {
+  color: white;
+}
+
+.site-card-border-less-wrapper {
+  padding: 30px;
+  background: #ececec;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttonMob {
+    order: 1;
+    padding: 5px 5% 5px 0;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .buttonMob {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .buttonMob {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .buttonMob {
+    display: none;
+  }
+}
